@@ -8,11 +8,51 @@
 </head>
 <body>
    <header id="header"><h1>Weather Dashboard</h1></header>
-       <div class="body"> <div class="child" id="sideBar"><div><h2>Search for a City</h2>
+   <div class="body">  <div class="child" id="sideBar"><div><h2>Search for a City</h2>
     <input id = "searchInput" type="text" placeholder="Search a City">
   <button id="searchBtn">search</button></div>
-    <div id="savedList"></div></div>
-    <div class="child" id="today"> <h1 id="cityName"></h1> <p id="date1"></p></div></div>
+    <div id="savedList"></div>
+    <button id="clear">Clear</button></div>
+
+  <div class="child" id="today"> <h1 id="cityName"></h1> 
+      <p id="date1"></p>
+      <ul>
+        <li id="icon1"><img id="img" src="" alt=""></li>
+        <li id="temp1"></li>
+        <li id="wind1"></li>
+        <li id="humid1"></li>
+      </ul>
+    </div>
+  <div class="cards">
+   <div class="card"> <p id="date2"></p> 
+    <ul>
+      <li id="icon2"><img id="img2" src="" alt=""></li>
+      <li id="temp2"></li>
+      <li id="wind2"></li>
+      <li id="humid2"></li>
+    </ul></div>
+    <div class="card"> <p id="date3"></p>
+      <ul>
+        <li id="icon3"><img id="img3" src="" alt=""></li>
+        <li id="temp3"></li>
+        <li id="wind3"></li>
+        <li id="humid3"></li>
+      </ul></div>
+      <div class="card"> <p id="date4"></p>
+        <ul>
+          <li id="icon4"><img id="img4" src="" alt=""></li>
+          <li id="temp4"></li>
+          <li id="wind4"></li>
+          <li id="humid4"></li>
+        </ul></div>
+        <div class="card"> <p id="date5"></p>
+          <ul>
+            <li id="icon5"><img id="img5" src="" alt=""></li>
+            <li id="temp5"></li>
+            <li id="wind5"></li>
+            <li id="humid5"></li>
+          </ul></div>
+  </div></div>
   <script src="./script.js"></script>  
 </body>
 
