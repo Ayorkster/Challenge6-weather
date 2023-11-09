@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function () {
  // Function to make a request to OpenWeatherMap One Call Weather API
  function makeOneCallWeatherApiRequest(lat, lon) {
     const apiKey = "2f2dfde83031272424c77ab771924459"; 
-    const oneCallApiUrl = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&limit=5&appid=${apiKey}&units=imperial`;
+    const oneCallApiUrl = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&limit=5&units=imperial&appid=${apiKey}`;
 
     // Use the Fetch API to send a GET request to the One Call Weather API
     fetch(oneCallApiUrl)
