@@ -24,5 +24,5 @@ Your past searches are listed under the search bar and can be reset by clicking 
 ```
 
 ## Images
-![Screenshot 2023-11-09 162045](https://github.com/Ayorkster/Challenge6-weather/assets/132170199/a3da6b79-92e2-4acf-bc7f-3d0bc6c46abf)
-![Screenshot 2023-11-09 162025](https://github.com/Ayorkster/Challenge6-weather/assets/132170199/3c1b2646-3a96-4b47-9eb6-5a24ca88fc5d)
+![Screenshot 2023-11-09 163423](https://github.com/Ayorkster/Challenge6-weather/assets/132170199/8f5d74b0-9471-4440-b290-543c7e3d229f)
+![Screenshot 2023-11-09 163357](https://github.com/Ayorkster/Challenge6-weather/assets/132170199/645b4a3d-cf15-446d-a14d-6bda6d48d045)
