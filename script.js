@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Function to make a request to OpenWeatherMap Geocoding API
     function makeGeocodingApiRequest(queryParam) {
-        const geocodingApiUrl = `http://api.openweathermap.org/geo/1.0/direct?q=${queryParam}&limit=5&appid=${apiKey}`;
+        const geocodingApiUrl = `https://api.openweathermap.org/geo/1.0/direct?q=${queryParam}&limit=5&appid=${apiKey}`;
 
         // Use the Fetch API to send a GET request to the OpenWeatherMap Geocoding API
         fetch(geocodingApiUrl)
