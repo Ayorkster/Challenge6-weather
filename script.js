@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", function () {
                const windOne = document.getElementById('wind1');
                const humidOne = document.getElementById('humid1');
                let iconOne = document.getElementById("img");
-               iconOne.src = 'http://openweathermap.org/img/w/'+ icon + '.png';
+               iconOne.src = 'https://openweathermap.org/img/w/'+ icon + '.png';
                dateone.textContent = date;
                descOne.textContent = desc;
                tempOne.textContent = 'Temp: ' + temp + 'F';
@@ -126,7 +126,7 @@ document.addEventListener("DOMContentLoaded", function () {
                const windTwo = document.getElementById('wind2');
                const humidTwo = document.getElementById('humid2');
                const iconTwo = document.getElementById("img2");
-               iconTwo.src = 'http://openweathermap.org/img/w/'+ icon2 + '.png';
+               iconTwo.src = 'https://openweathermap.org/img/w/'+ icon2 + '.png';
                datetwo.textContent = date2;
                descTwo.textContent = desc2;
                temptwo.textContent = 'Temp: ' + temp2 + 'F';
@@ -147,7 +147,7 @@ document.addEventListener("DOMContentLoaded", function () {
                const windThree = document.getElementById('wind3');
                const humidThree = document.getElementById('humid3');
                const iconThree = document.getElementById("img3");
-               iconThree.src = 'http://openweathermap.org/img/w/'+ icon3 + '.png';
+               iconThree.src = 'https://openweathermap.org/img/w/'+ icon3 + '.png';
                datethree.textContent = date3;
                descThree.textContent = desc3;
                tempThree.textContent = 'Temp: ' + temp3 + 'F';
@@ -168,7 +168,7 @@ document.addEventListener("DOMContentLoaded", function () {
                const windFour = document.getElementById('wind4');
                const humidFour = document.getElementById('humid4');
                const iconFour = document.getElementById("img4");
-               iconFour.src = 'http://openweathermap.org/img/w/'+ icon4 + '.png';
+               iconFour.src = 'https://openweathermap.org/img/w/'+ icon4 + '.png';
                descFour.textContent = desc4;
                datefour.textContent = date4;
                tempFour.textContent = 'Temp: ' + temp4 + 'F';
@@ -189,7 +189,7 @@ document.addEventListener("DOMContentLoaded", function () {
                const humidFive = document.getElementById('humid5');
                const descFive = document.getElementById('desc5')
                const iconFive = document.getElementById("img5");
-               iconFive.src = 'http://openweathermap.org/img/w/'+ icon5 + '.png';
+               iconFive.src = 'https://openweathermap.org/img/w/'+ icon5 + '.png';
                datefive.textContent = date5;
                descFive.textContent = desc5;
                tempFive.textContent = 'Temp: ' + temp5 + 'F';
